@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');   
+    
+*{
+    box-sizing: border-box;
+    padding:0;
+}
+#navbar{
+    
+    background-color: rgb(51, 44, 44);
+    padding: 3px 6px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+
+}
+#navbar ul img{
+    height: 30px;
+    filter: invert(1);
+
+}
+
+#navbar ul h4{
+    color: white;
+    margin: 1px 13px;
+}
+
+#navbar li{
+   
+    list-style: none;
+}
+
+#navbar li a{
+    font-family: 'Orbitron', sans-serif ;
+    text-decoration: none;
+    padding: 14px 23px;
+    color: white;
+   
+}
+#navbar li a:hover{
+   
+    text-decoration: none;
+    padding: 9px 26px;
+    color: rgb(196, 130, 130);
+}
+
+#introSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#864e4e;
+    font-size: 4rem;
+    font-family: 'Orbitron', sans-serif; 
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 300px;
+    background-color: yellow;
+}
+#introSection div{
+    text-shadow: 2px 2px white;
+}
+
+#introSection div.small{
+    font-size: 27px;
+}
+
+#MissionSection{
+    height: 300px;
+    width: 100%;
+    display: block;
+    margin: auto;
+   
+}
+
+#MissionSection h2{
+    font-family: 'Orbitron', sans-serif; 
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 259px;
+    height: 186px;
+    margin: 15px 35px;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: 12px;
+    font-family:'Orbitron', sans-serif ;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 70px;
+    padding: 0px 14px;
+}
+
+.card-img img{
+    height: inherit;
+    padding: 0 4px;
+}
+.card-content p{
+    font-size: small;
+    font-weight: lighter;
+    color:#c87483;
+    font-family: 'Orbitron', sans-serif;
+}
+#sponsorsSection{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    background-color:rgb(196, 130, 130);
+}
+
+#sponsorsSection h3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-family:'Orbitron', sans-serif ;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.block img{
+    border: 2px solid black;
+    height: 297px;
+    width: 241px;
+    
+    margin: 21px 56px;
+}
+
+.blockCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 46px;
+    
+    
+    color: #020202;
+    
+}
+
+.blockCont h2{
+    color: white;
+    font-size: 16px;
+}
+
+
+.block p{
+    margin: 17px;
+    font-size: small;
+}
+
+#footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+}

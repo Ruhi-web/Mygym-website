@@ -1,0 +1,55 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js")
+block style
+    style
+        include ../static/style.css
+block content
+    section#introSection
+        div Get Ready for the burn
+        div.small Sweat and lose
+    section#MissionSection
+        h2 Our Training Program
+        div.card
+            h3 Group Workouts
+            div.card-box 
+                div.card-img 
+                    img(src="/static/1.jpg", alt="img")
+                div.card-content 
+                    p We give you power to lose your 
+        div.card
+            h3 Strength Training
+            div.card-box 
+                div.card-img 
+                    img(src="/static/2.png", alt="img")
+                div.card-content 
+                    p We give you power to buildyou stronger 
+        div.card
+            h3 Cardio Blast
+            div.card-box 
+                div.card-img 
+                    img(src="/static/3.png", alt="img")
+                div.card-content 
+                    p We give you power to lose your 
+        div.card
+            h3 Freestyle Training
+            div.card-box 
+                div.card-img 
+                    img(src="/static/4.png", alt="img")
+                div.card-content 
+                    p We give you power to lose your 
+    section#sponsorsSection
+        div.block 
+            img(src="/static/a.jpg", alt="img")
+        div.blockCont
+            h2 TIMINGS
+            p 5AM to 10PM
+            p All Days of the week
+        div.block 
+            img(src="/static/c.jpg", alt="img")
+        div.blockCont
+            h2 FACILITIES
+            p Lockers, showers, sauna, Music, Towels
+
+        | 
